@@ -19,6 +19,9 @@ a{
     color: black;
     font-size: 15px;
 }
+h1{
+    color: blue;
+}
 @keyframes cader{
     0%{
         border-top:10px solid red;
