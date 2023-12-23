@@ -1,0 +1,48 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5px;
+    border-top:10px solid red;
+    border-left:10px solid blue;
+    border-bottom: 10px solid blueviolet;
+    border-right:10px solid green ;
+    animation:cader 5s ease-in forwards infinite alternate;
+}
+@keyframes cader{
+    0%{
+        border-top:10px solid red;
+        border-left:10px solid blue;
+        border-bottom: 10px solid blueviolet;
+        border-right:10px solid green ;
+    }
+    25%{
+        border-top:10px solid blue;
+        border-left:10px solid blueviolet;
+        border-bottom: 10px solid green;
+        border-right:10px solid red ;       
+    }
+    50%{
+        border-top:10px solid blueviolet;
+        border-left:10px solid green;
+        border-bottom: 10px solid red;
+        border-right:10px solid blue ;  
+    }
+    75%{
+        border-top:10px solid green;
+        border-left:10px solid red;
+        border-bottom: 10px solid blue;
+        border-right:10px solid blueviolet ;        
+    }
+    100%{
+        border-top:10px solid red;
+        border-left:10px solid blue;
+        border-bottom: 10px solid blueviolet;
+        border-right:10px solid green;          
+    }
+}
