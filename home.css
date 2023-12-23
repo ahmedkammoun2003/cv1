@@ -9,7 +9,7 @@ header{
     margin-right: 2%;
     background-color: blueviolet;
 }
-a{
+header a{
     flex-grow: 1;
     text-decoration: none;
     color:white;
